@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --blue-50: #f0f9ff;
+  --blue-100: #e0f2fe;
+  --blue-200: #b2ebf2;
+  --blue-300: #80deea;
+  --blue-400: #4dd0e1;
+  --blue-500: #26c6da;
+  --blue-600: #00bcd4;
+  --blue-700: #00acc1;
+  --blue-800: #0097a7;
+  --blue-900: #00838f;
+  --blue-950: #006064;
+  --blue-1000: #003d40;
+}
