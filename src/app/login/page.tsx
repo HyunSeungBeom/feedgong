@@ -4,8 +4,8 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 export default function LoginPage() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState<string>("");
+  const [password, setPassword] = useState<string>("");
   const router = useRouter();
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -17,7 +17,7 @@ export default function LoginPage() {
     <main className="flex min-h-[calc(100vh-64px)] flex-col items-center justify-center p-4">
       <div className="w-full max-w-md">
         <div className="bg-white rounded-lg shadow-md p-8">
-          <h1 className="text-2xl font-bold text-center mb-8">로그인</h1>
+          <h1 className="text-2xl font-bold text-center mb-8">피공</h1>
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label

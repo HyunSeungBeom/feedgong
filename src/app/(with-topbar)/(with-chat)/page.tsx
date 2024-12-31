@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
+    <main className="flex min-h-screen flex-col items-center p-24 ">
       <div className="w-full max-w-4xl">
         <div className="bg-white rounded-lg shadow-md">
           <div className="flex items-center justify-between p-4 border-b">
@@ -14,7 +14,6 @@ export default function Home() {
             </div>
           </div>
           <div className="divide-y">
-            {/* 게시글 아이템 예시 */}
             <div className="p-4 hover:bg-gray-50 cursor-pointer">
               <div className="flex justify-between items-center">
                 <h3 className="text-lg font-medium">피드백 부탁드립니다</h3>
