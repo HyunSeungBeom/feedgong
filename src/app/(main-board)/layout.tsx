@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import TopBar from "../../components/TopBar";
+import TopBar from "../components/TopBar";
 import Chat from "@/app/components/Chat";
 export const metadata: Metadata = {
   title: "피공",
