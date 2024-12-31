@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import "../app/globals.css";
-
+import TopBar from "../components/TopBar";
 export const metadata: Metadata = {
   title: "피공",
   description: "피드백, 공략을 원할땐! 피공!",
@@ -13,7 +12,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body>
+        <TopBar />
+        {children}
+      </body>
     </html>
   );
 }
