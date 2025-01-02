@@ -2,7 +2,6 @@
 
 import { useRouter } from "next/navigation";
 import { postList } from "../__MOCK__";
-
 export default function Home() {
   const router = useRouter();
 

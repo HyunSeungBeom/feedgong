@@ -1,4 +1,4 @@
-export const posts = [
+export const postList = [
   {
     id: 1,
     title: "피드백 부탁드립니다",
