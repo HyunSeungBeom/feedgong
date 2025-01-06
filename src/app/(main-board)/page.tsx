@@ -27,6 +27,7 @@ export default function Home() {
               <div
                 key={post.id}
                 className="p-4 hover:bg-gray-50 cursor-pointer"
+                onClick={() => router.push(`/board/${post.id}`)}
               >
                 <div className="flex justify-between items-center">
                   <h3 className="text-lg font-medium">{post.title}</h3>
