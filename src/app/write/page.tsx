@@ -30,6 +30,7 @@ export default function WritePage() {
             </label>
             <select
               id="category"
+              name="category"
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               required
             >
@@ -51,6 +52,7 @@ export default function WritePage() {
             <input
               type="text"
               id="title"
+              name="title"
               value={title}
               onChange={(e) => setTitle(e.target.value)}
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
