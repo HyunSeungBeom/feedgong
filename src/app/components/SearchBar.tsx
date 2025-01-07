@@ -24,6 +24,7 @@ export default function SearchBar() {
       <form action={formAction} className="flex gap-2">
         <input
           type="text"
+          name="searchText"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           placeholder="검색어를 입력하세요"

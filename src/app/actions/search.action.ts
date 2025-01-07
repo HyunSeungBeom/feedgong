@@ -5,12 +5,7 @@ import { revalidateTag } from "next/cache";
 export async function searchAction(_: any, formData: FormData) {
   const searchText = formData.get("searchText")?.toString();
 
-  if (!searchText) {
-    return {
-      status: false,
-      error: "검색어를 입력해주세요",
-    };
-  }
+  if (!searchText) return;
 
   try {
     const response = await fetch(
